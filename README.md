@@ -11,6 +11,9 @@ Trackpad configuration
 - Trackpad > Point & Click > Tap to click
 - Accessibility > Pointer Control > Mouse & Trackpad > Trackpad Options > Tick "Enable dragging - three finger drag"
 
+Show Bluetooth in Menu bar
+- Bluetooth > Tick "Show Bluetooth in Menu bar"
+
 ## Chrome Browser
 
 1. Open Safari and download Chrome for Mac. 
