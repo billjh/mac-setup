@@ -1,6 +1,6 @@
-# Mac Setup Guide
+# Mac Setup (Big Sur)
 
-Steps to setup my new development environment on Mac (Big Sur).
+Steps to setup my new development environment on a Mac.
 
 ## System Preferences
 
@@ -15,4 +15,6 @@ Trackpad configuration
 
 Open Terminal and run (from https://brew.sh/)
 
-```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
