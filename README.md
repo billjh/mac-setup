@@ -64,7 +64,7 @@ Fix folder permission "Insecure completion-dependent directories detected" by [t
 chmod 755 /usr/local/share/zsh
 chmod 755 /usr/local/share/zsh/site-functions
 ```
-Install Powerlevel10k theme [for Oh My Zsh](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh) theme for Oh My Zsh
 
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -142,6 +142,13 @@ Install Visual Studio Code and turn on settings sync by login to Github.
 
 ```bash
 brew install --cask visual-studio-code
+```
+
+Install [Fira Code](https://github.com/tonsky/FiraCode/wiki/Installing#macos) font.
+
+```bash
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
 ```
 
 ## Docker Desktop and Kubernetes
