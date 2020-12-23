@@ -46,6 +46,8 @@ Open Terminal and run the [setup script](https://brew.sh/).
 
 ## iTerm2 + zsh + Oh My Zsh + Powerlevel10k
 
+![iterm2_screenshot.png](/iterm2_screenshot.png)
+
 Install iTerm2 from homebrew. Open iTerm2 and keep in dock.
 
 ```bash
