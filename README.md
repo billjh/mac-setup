@@ -24,6 +24,7 @@ Menu Bar
 
 - General > New Finder Windows show > Change to "billjh" (home directory)
 - Sidebar > Remove unwanted entries like "Recents" and "Tags"
+- Sidebar > Add my home directory "billjh" and "Projects"
 - Advanced > Tick "Show all filename extensions"
 
 ## Chrome Browser
