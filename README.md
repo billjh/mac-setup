@@ -25,7 +25,7 @@ Show Bluetooth in Menu bar
 
 ## Homebrew
 
-Open Terminal and run (from https://brew.sh/)
+Open Terminal and run the [setup script](https://brew.sh/).
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -36,7 +36,7 @@ Open Terminal and run (from https://brew.sh/)
 Install iTerm2 from homebrew. Open iTerm2 and keep in dock.
 
 ```bash
-brew install iterm2
+brew install --cask iterm2
 ```
 
 Download a `.itermcolors` color scheme file from [here](https://iterm2colorschemes.com/) ([github](https://github.com/mbadolato/iTerm2-Color-Schemes)) and apply to iTerm2 profile.
@@ -77,3 +77,22 @@ Restart iTerm2 and configure Powerlevel10k theme.
 ```bash
 p10k configure
 ```
+
+## Visual Studio Code
+
+Install Visual Studio Code and turn on settings sync by login to Github.
+
+```bash
+brew install --cask visual-studio-code
+```
+
+## Docker Desktop and Kubernetes
+
+Install docker desktop for mac.
+
+```bash
+brew install --cask docker
+```
+
+Enable the local Kubernetes cluster.
+- Preferences > Kubernetes > Tick "Enable Kubernetes"
