@@ -20,6 +20,9 @@ Menu Bar
 - Hide Spotlight
 - Clock > Tick "Display time with seconds"
 
+Enable desktop file stacks
+- Right click at desktop > Click "Use Stacks"
+
 ## Finder Preferences
 
 - General > New Finder Windows show > Change to "billjh" (home directory)
