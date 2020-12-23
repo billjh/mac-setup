@@ -111,6 +111,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(
   git
+  golang
   zsh-completions
   zsh-autosuggestions
   zsh-syntax-highlighting
@@ -169,3 +170,13 @@ Install [tilt](https://docs.tilt.dev/install.html#macos).
 ```bash
 curl -fsSL https://raw.githubusercontent.com/tilt-dev/tilt/master/scripts/install.sh | bash
 ```
+
+# Go
+
+Install go.
+
+```bash
+brew install go
+```
+
+Go completions is included in zsh [golang](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/golang) plugin.
