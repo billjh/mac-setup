@@ -182,6 +182,13 @@ brew install git-lts
 
 Follow the Github guides for [creating new SSH key](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and [adding SSH key to Github account](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
 
+Config git user indentity.
+
+```bash
+git config --global user.email "bill.jiangh@gmail.com"
+git config --global user.name "Huan Jiang"
+```
+
 ## Visual Studio Code
 
 Install Visual Studio Code and turn on settings sync by login to Github.
