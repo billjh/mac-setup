@@ -189,6 +189,12 @@ git config --global user.email "bill.jiangh@gmail.com"
 git config --global user.name "Huan Jiang"
 ```
 
+Set git pull with fast-forward only by default.
+
+```bash
+git config pull.ff only --global
+```
+
 ## Visual Studio Code
 
 Install Visual Studio Code and turn on settings sync by login to Github.
