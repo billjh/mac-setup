@@ -121,6 +121,8 @@ autoload -U compinit && compinit
 source $ZSH/oh-my-zsh.sh
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# source <(kubectl completion zsh)
 ```
 
 ## Git and SSH key
@@ -152,3 +154,11 @@ brew install --cask docker
 
 Enable the local Kubernetes cluster.
 - Preferences > Kubernetes > Tick "Enable Kubernetes"
+
+Enable kubectl zsh autocompletion by adding `source <(kubectl completion zsh)` to `~/.zshrc`.
+
+Install [tilt](https://docs.tilt.dev/install.html#macos).
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/tilt-dev/tilt/master/scripts/install.sh | bash
+```
