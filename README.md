@@ -123,6 +123,17 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 ```
 
+## Git and SSH key
+
+Replace system git with homebrew one, and install git-lts.
+
+```bash
+brew install git
+brew install git-lts
+```
+
+Follow the Github guides for [creating new SSH key](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and [adding SSH key to Github account](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
+
 ## Visual Studio Code
 
 Install Visual Studio Code and turn on settings sync by login to Github.
