@@ -7,14 +7,20 @@ Steps to setup my new development environment on a Mac.
 Disable guest account
 - Users & Groups > Guest User > Untick "Allow guests to log in to this computer"
 
-Trackpad configuration
+Trackpad
 - Trackpad > Point & Click > Tap to click
 - Accessibility > Pointer Control > Mouse & Trackpad > Trackpad Options > Tick "Enable dragging - three finger drag"
 
-Show Bluetooth in Menu bar
-- Bluetooth > Tick "Show Bluetooth in Menu bar"
+Dock
+- Dock & Menu Bar > Dock > Untick "Show recent applications in Dock"
 
-## Finder
+Menu Bar
+- Show Bluetooth
+- Show Airdrop
+- Hide Spotlight
+- Clock > Tick "Display time with seconds"
+
+## Finder Preferences
 
 - General > New Finder Windows show > Change to "billjh" (home directory)
 - Sidebar > Remove unwanted entries like "Recents" and "Tags"
