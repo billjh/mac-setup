@@ -30,3 +30,50 @@ Open Terminal and run (from https://brew.sh/)
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+## iTerm2 + zsh + Oh My Zsh + Powerlevel10k
+
+Install iTerm2 from homebrew. Open iTerm2 and keep in dock.
+
+```bash
+brew install iterm2
+```
+
+Download a `.itermcolors` color scheme file from [here](https://iterm2colorschemes.com/) ([github](https://github.com/mbadolato/iTerm2-Color-Schemes)) and apply to iTerm2 profile.
+- iTerm2 Preferences > Profiles > Default > Color Presets > Import
+- eg. [Elementary.itermcolors](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Elementary.itermcolors)
+
+Install Zsh from homebrew and [set as default shell](https://stackoverflow.com/a/44549662). Restart iTerm2 when needed.
+
+```bash
+brew install zsh
+which zsh # expect /usr/local/bin/zsh
+sudo sh -c "echo $(which zsh) >> /etc/shells"
+chsh -s $(which zsh)
+```
+
+Install [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+Fix folder permission "Insecure completion-dependent directories detected" by [this comment](https://github.com/ohmyzsh/ohmyzsh/issues/6835#issuecomment-390187157)
+
+```bash
+chmod 755 /usr/local/share/zsh
+chmod 755 /usr/local/share/zsh/site-functions
+```
+Install Powerlevel10k theme [for Oh My Zsh](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+
+```bash
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
+Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
+
+Restart iTerm2 and configure Powerlevel10k theme.
+
+```bash
+p10k configure
+```
