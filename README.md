@@ -14,6 +14,12 @@ Trackpad configuration
 Show Bluetooth in Menu bar
 - Bluetooth > Tick "Show Bluetooth in Menu bar"
 
+## Finder
+
+- General > New Finder Windows show > Change to "billjh" (home directory)
+- Sidebar > Remove unwanted entries like "Recents" and "Tags"
+- Advanced > Tick "Show all filename extensions"
+
 ## Chrome Browser
 
 1. Open Safari and download Chrome for Mac. 
