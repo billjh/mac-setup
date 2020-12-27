@@ -11,6 +11,9 @@ Trackpad
 - Trackpad > Point & Click > Tap to click
 - Accessibility > Pointer Control > Mouse & Trackpad > Trackpad Options > Tick "Enable dragging - three finger drag"
 
+Keyboard
+- Keyboard > Input Sources > Tick "Use the Caps Lock key to switch to and from ABC"
+
 Dock
 - Dock & Menu Bar > Dock > Untick "Show recent applications in Dock"
 
